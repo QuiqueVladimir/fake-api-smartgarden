@@ -2,377 +2,230 @@
   "users": [
     {
       "id": 1,
-      "name": "John",
-      "surname": "Doe",
-      "email": "johndoe@example.com",
-      "message": "I am interested in joining the platform.",
-      "password": "mypassword123",
-      "type": "expert",
-      "experience": "5 years",
-      "timeToDedicate": "10 hours per week",
-      "targetAgeRange": "40"
+      "type": "doctor",
+      "firstName": "Anuel",
+      "lastName": "AlaAbare",
+      "dni": "123456"
     },
     {
       "id": 2,
-      "name": "Jane",
-      "surname": "Smith",
-      "email": "janesmith@example.com",
-      "message": "Looking to learn more about gardening.",
-      "password": "password",
-      "type": "learner",
-      "experience": "Beginner",
-      "timeToDedicate": "5 hours per week",
-      "targetAgeRange": "30"
+      "type": "patient",
+      "firstName": "Daddy",
+      "lastName": "Yankee",
+      "dni": "123456"
     },
     {
       "id": 3,
-      "name": "Alice",
-      "surname": "Johnson",
-      "email": "alicejohnson@example.com",
-      "message": "I want to share my knowledge with others.",
-      "password": "1234",
-      "type": "expert",
-      "experience": "10 years",
-      "timeToDedicate": "15 hours per week",
-      "targetAgeRange": "35"
-    },
-    {
-      "id": 4,
-      "name": "Bob",
-      "surname": "Williams",
-      "email": "bobwilliams@example.com",
-      "message": "Eager to learn more about plant care.",
-      "password": "123",
-      "type": "learner",
-      "experience": "Intermediate",
-      "timeToDedicate": "8 hours per week",
-      "targetAgeRange": "25"
-    },
-    {
-      "id": 5,
-      "name": "Charlie",
-      "surname": "Brown",
-      "email": "charliebrown@example.com",
-      "message": "I want to explore new gardening techniques.",
-      "password": "12345",
-      "type": "expert",
-      "experience": "7 years",
-      "timeToDedicate": "12 hours per week",
-      "targetAgeRange": "45"
-    },
-    {
-      "id": 6,
-      "name": "camila",
-      "surname": "Conde",
-      "email": "camilacondeisla007@gmail.com",
-      "message": "message",
-      "password": "123456",
-      "type": "learner",
-      "experience": "basic",
-      "timeToDedicate": "15min",
-      "targetAgeRange": "20"
+      "type": "patient",
+      "firstName": "Karol",
+      "lastName": "G",
+      "dni": "123456"
     }
   ],
-  "courses": [
-    {
-      "id": 1,
-      "title": "Introduction to Hydropinics aaaaaaaaaasdkmasd asdkawd k awdk wd ",
-      "description": "Learn the basicwdwwwwwwwwwwwwwws of hydroponics",
-      "image": "https://redagricola.com/wp-content/uploads/2023/05/dsc_0022-scaled.jpg",
-      "expertId": 1,
-      "communityId": 1,
-      "price": 50,
-      "rating": 4.5,
-      "numberModules": 2
-    },
-    {
-      "id": 2,
-      "title": "Introduction to Hydropinics",
-      "description": "Learn the basics of hydroponics",
-      "image": "https://redagricola.com/wp-content/uploads/2023/05/dsc_0022-scaled.jpg",
-      "expertId": 1,
-      "communityId": 1,
-      "price": 50,
-      "rating": 4.5,
-      "numberModules": 2
-    },
-    {
-      "id": 3,
-      "title": "Introduction to Hydropinics",
-      "description": "Learn the basics of hydroponics",
-      "image": "https://redagricola.com/wp-content/uploads/2023/05/dsc_0022-scaled.jpg",
-      "expertId": 1,
-      "communityId": 1,
-      "price": 50,
-      "rating": 4.5,
-      "numberModules": 2
-    },
-    {
-      "id": 4,
-      "title": "Introduction to Hydropinics",
-      "description": "Learn the basics of hydroponics",
-      "image": "https://redagricola.com/wp-content/uploads/2023/05/dsc_0022-scaled.jpg",
-      "expertId": 1,
-      "communityId": 1,
-      "price": 50,
-      "rating": 4.5,
-      "numberModules": 2
-    },
-    {
-      "id": 5,
-      "title": "Introduction to Hydropinics",
-      "description": "Learn the basics of hydroponics",
-      "image": "https://redagricola.com/wp-content/uploads/2023/05/dsc_0022-scaled.jpg",
-      "expertId": 1,
-      "communityId": 1,
-      "price": 50,
-      "rating": 4.5,
-      "numberModules": 2
-    },
-    {
-      "id": 6,
-      "title": "Introduction to Hydropinics",
-      "description": "Learn the basics of hydroponics",
-      "image": "https://redagricola.com/wp-content/uploads/2023/05/dsc_0022-scaled.jpg",
-      "expertId": 1,
-      "communityId": 1,
-      "price": 50,
-      "rating": 4.5,
-      "numberModules": 2
-    },
-    {
-      "id": 7,
-      "title": "Introduction to Hydropinics",
-      "description": "Learn the basics of hydroponics",
-      "image": "https://redagricola.com/wp-content/uploads/2023/05/dsc_0022-scaled.jpg",
-      "expertId": 1,
-      "communityId": 1,
-      "price": 50,
-      "rating": 4.5,
-      "numberModules": 2
-    },
-    {
-      "id": 8,
-      "title": "Introduction to Hydropinics",
-      "description": "Learn the basics of hydroponics",
-      "image": "https://redagricola.com/wp-content/uploads/2023/05/dsc_0022-scaled.jpg",
-      "expertId": 1,
-      "communityId": 1,
-      "price": 50,
-      "rating": 4.5,
-      "numberModules": 2
-    }
-  ],
-  "modules": [
-    {
-      "id": 1,
-      "courseId": 1,
-      "title": "Module 1: Getting Started with Hydroponics",
-      "description": "Learn the basics of hydroponics",
-      "video": "https://www.youtube.com/embed/rnJlmDV2GBE?si=iUh89TDXHq_wwKXA",
-      "transcription": "SDSPDLSDPSLD",
-      "images": ["https://i.postimg.cc/8ckfgj70/T-cnicas-Hidrop-nicas.jpg"],
-      "links": ["https://www.google.com", "https://www.youtube.com"]
-    },
-    {
-      "id": 2,
-      "courseId": 1,
-      "title": "Module 2: Hydroponic Systems",
-      "description": "Learn the basics of hydroponics",
-      "video": "https://www.youtube.com/watch?v=2",
-      "transcription": "module.txt",
-      "images": ["image1.jpg", "image2.jpg"],
-      "links": ["https://www.google.com", "https://www.youtube.com"]
-    },
-    {
-    "id": 3,
-    "courseId": 2,
-    "title": "Module 1: Getting Started with Hydroponics",
-    "description": "Learn the basics of hydroponics",
-    "video": "https://www.youtube.com/watch?v=1",
-    "transcription": "LWLDWMDWD",
-    "images": ["https://i.postimg.cc/8ckfgj70/T-cnicas-Hidrop-nicas.jpg"],
-    "links": ["https://www.google.com", "https://www.youtube.com"]
-    },
-    {
-      "id": 4,
-      "courseId": 2,
-      "title": "Module 2: Hydroponic Systems",
-      "description": "Learn the basics of hydroponics",
-      "video": "https://www.youtube.com/watch?v=2",
-      "transcription": "module.txt",
-      "images": ["image1.jpg", "image2.jpg"],
-      "links": ["https://www.google.com", "https://www.youtube.com"]
-    }
-  ],
-  "progress": [
-    {
-      "userId": 2,
-      "courseId": 1,
-      "moduleId": 1,
-      "status": "Completed"
-    },
-    {
-      "userId": 2,
-      "courseId": 1,
-      "moduleId": 2,
-      "status": "In Progress"
-    },
-    {
-      "userId": 3,
-      "courseId": 1,
-      "moduleId": 1,
-      "status": "In Progress"
-    },
-    {
-      "userId": 4,
-      "courseId": 1,
-      "moduleId": 2,
-      "status": "In Progress"
-    }
-  ],
-  "purchased_courses": [
-    {
-      "id": 1,
-      "userId": 2,
-      "courseId": 1,
-      "date": "2021-01-01 12:00:00"
-    },
-    {
-      "id": 2,
-      "userId": 4,
-      "courseId": 1,
-      "date": "2021-01-01 12:00:00"
-    }
-  ],
-  "communities": [
-    {
-      "id": 1,
-      "expertId": 1,
-      "courseId": 1,
-      "title": "Hydroponics Community",
-      "description": "A community for hydroponics enthusiasts",
-      "image": "image.jpg",
-      "membersId": [2, 3, 4],
-      "fixedMessageId": 1
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "userId": 2,
-      "communityId": 1,
-      "content": "Great course!",
-      "image": ["image1.jpg", "image2.jpg"],
-      "date": "2021-01-01 12:00:00",
-      "likes": 5,
-      "parentCommentId": 2
-    }
-  ],
-  "stores": [
-    {
-      "id": 1,
-      "expertId": 1,
-      "products": [1]
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "title": "Hydroponic Starter Kit",
-      "description": "A starter kit for hydroponics",
-      "front": "image.jpg",
-      "price": 50,
-      "image": ["image1.jpg", "image2.jpg"],
-      "document": ["doc1.pdf", "doc2.pdf"],
-      "text": ["text1", "text2"]
-    }
-  ],
-  "purchased_products": [
-    {
-      "id": 1,
-      "userId": 2,
-      "productId": 1,
-      "date": "2021-01-01 12:00:00"
-    }
-  ],
-  "subscriptions": [
-    {
-      "id": 1,
-      "name": "Basic",
-      "type_user": "Expert",
-      "price": 9.99,
-      "description": "Create courses and share your knowledge with the world",
-      "duration": 30
-    },
-    {
-      "id": 2,
-      "name": "Community expansion",
-      "type_user": "Expert",
-      "price": 14.99,
-      "description": "Create courses and communities to share progress",
-      "duration": 30
-    },
-    {
-      "id": 3,
-      "name": "Pro Plan Expert",
-      "type_user": "Expert",
-      "price": 24.99,
-      "description": "Create a custom store where you can sell additional content and you will also have all the benefits of community expansion",
-      "duration": 90
-    },
-    {
-      "id": 4,
-      "name": "Learning Plan",
-      "type_user": "Learner",
-      "price": 0,
-      "description": "Discover hydroponics at your own pace, you can access digital courses, communities and personalized stores",
-      "duration": "unlimited"
-    }
-  ],
-  "subscriptions_users": [
+  "auth": [
     {
       "id": 1,
       "userId": 1,
-      "subscription_id": 1,
-      "date_init": "2021-01-01 12:00:00",
-      "date_end": "2021-01-31 12:00:00"
+      "email": "asd@hotmal.com",
+      "password": "kasmdasd"
     },
     {
       "id": 2,
       "userId": 2,
-      "subscription_id": 4,
-      "date_init": "2021-01-01 12:00:00",
-      "date_end": "2021-01-31 12:00:00"
+      "email": "asdas@gmail.com",
+      "password": "123456"
     },
     {
       "id": 3,
       "userId": 3,
-      "subscription_id": 2,
-      "date_init": "2021-01-01 12:00:00",
-      "date_end": "2021-04-01 12:00:00"
+      "email": "llala@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "creditCards": [
+    {
+      "id": 1,
+      "userId": 1,
+      "cardHolder": "Anuel AlaAbare",
+      "cardNumber": "1234567890123456",
+      "expirationDate": "12/25",
+      "cvv": "123"
+    }
+  ],
+  "plans": [
+    {
+      "id": 1,
+       "name": "Plan A",
+       "durationMouth": 1,
+       "price": 100.0
     },
     {
-      "id": 4,
-      "userId": 4,
-      "subscription_id": 4,
-      "date_init": "2021-01-01 12:00:00",
-      "date_end": "2021-01-31 12:00:00"
-    },
+      "id": 2,
+      "name": "Plan B",
+      "durationMouth": 3,
+      "description": "Description of Plan B",
+      "price": 200.0
+    }
+  ],
+  "purchasedPlans": [
     {
-      "id": 5,
-      "userId": 5,
-      "subscription_id": 3,
-      "date_init": "2021-01-01 12:00:00",
-      "date_end": "2021-01-31 12:00:00"
-    },
+      "id": 1,
+      "userId": 2,
+      "planId": 1,
+      "purchaseDate": "2023-10-01",
+      "expirationDate": "2024-10-01",
+      "codeDiscount": "DISCOUNT50",
+      "finalPrice": 50.0
+    }
+  ],
+  "connectionRequests": [
     {
-      "id": 6,
-      "userId": 6,
-      "subscription_id": 4,
-      "date_init": "2021-01-01 12:00:00",
-      "date_end": "2021-01-31 12:00:00"
+      "id": 1,
+      "doctorId": 1,
+      "patientId": 2,
+      "requestDate": "2023-10-01",
+      "status": "pending"
+    }
+  ],
+  "doctorPatientConnections": [
+    {
+      "id": 1,
+      "doctorId": 1,
+      "patientId": 2,
+      "startDate": "2023-10-01",
+      "endDate": null,
+      "status": "active"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "patientId": 2,
+      "doctorId": 1,
+      "description": "Doctor clinica san pedro",
+      "urlImage": "https://example.com/image.jpg"
+    }
+  ],
+  "message": [
+    {
+      "id": 1,
+      "chatId": 1,
+      "senderId": 1,
+      "content": "Hello, how are you?",
+      "timestamp": "2023-10-01T12:00:00Z",
+      "isRead": false,
+      "urlImage": "https://example.com/image.jpg"
+    }
+  ],
+  "treatments": [
+    {
+      "id": 1,
+      "doctorId": 1,
+      "patientId": 2,
+      "title": "Treatment for headache",
+      "description": "Description of the treatment",
+      "startDate": "2023-10-01",
+      "endDate": "2023-10-15",
+      "status": "pending"
+    }
+  ],
+  "procedures": [
+    {
+      "id": 1,
+      "treatmentId": 1,
+      "type": "medicine",
+      "description": "Take 2 pills daily",
+      "startDate": "2023-10-01",
+      "status": "pending"
+    }
+  ],
+  "treatmentRequest": [
+    {
+      "id": 1,
+      "treatmentId": 1,
+      "patientId": 2,
+      "type": "creation",
+      "status": "pending",
+      "dateRequested": "2023-10-01"
+    }
+  ],
+  "procedureChangeRequests": [
+    {
+      "id": 1,
+      "procedureId": 3,
+      "type": "change",
+      "newDate": "2023-10-10",
+      "status": "pending"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "doctorId": 1,
+      "patientId": 2,
+      "date": "2023-10-01:10:00",
+      "status": "scheduled",
+      "description": "Follow-up appointment"
+    }
+  ],
+  "appointmentChangeRequests": [
+    {
+      "id": 1,
+      "appointmentId": 1,
+      "requestedBy": 2,
+      "newDate": "2023-10-02:10:00",
+      "status": "pending"
+    }
+  ],
+  "symptoms": [
+    {
+      "id": 1,
+      "treatmentId": 1,
+      "patientId": 2,
+      "date": "2023-10-01",
+      "description": "Headache",
+      "notified": true
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "type": "reminder",
+      "message": "Mañana tienes una cita medica a las",
+      "targetDate": "2025-05-09",
+      "seen": false
+    }
+  ],
+  "discountCodes": [
+    {
+      "id": 1,
+      "code": "DISCOUNT50",
+      "description": "50% off on first purchase",
+      "discountPercentage": 50,
+      "maxDiscountAmount": 100,
+      "validUntil": "2024-12-31",
+      "maxUsage": 100,
+      "usedCount": 1,
+      "allowedPlantIds": [1,2],
+      "isActive": true
     }
   ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
